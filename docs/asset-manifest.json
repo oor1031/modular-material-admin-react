@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/main.87ed24a39fbc0c03d2d7.bundle.js",
+    "main.js.map": "/main.87ed24a39fbc0c03d2d7.bundle.js.map",
+    "runtime~main.js": "/runtime~main.87ed24a39fbc0c03d2d7.bundle.js",
+    "runtime~main.js.map": "/runtime~main.87ed24a39fbc0c03d2d7.bundle.js.map",
+    "vendors~main.js": "/vendors~main.87ed24a39fbc0c03d2d7.bundle.js",
+    "vendors~main.js.map": "/vendors~main.87ed24a39fbc0c03d2d7.bundle.js.map",
+    "iframe.html": "/iframe.html",
+    "precache-manifest.b1d1d136ace863d1980a58969b58c4a5.js": "/precache-manifest.b1d1d136ace863d1980a58969b58c4a5.js",
+    "service-worker.js": "/service-worker.js",
+    "static/media/AppSidebarBg.jpg": "/static/media/AppSidebarBg.3cedce4f.jpg",
+    "static/media/logo-storybook.png": "/static/media/logo-storybook.96349e07.png",
+    "vendors~main.87ed24a39fbc0c03d2d7.bundle.js.LICENSE": "/vendors~main.87ed24a39fbc0c03d2d7.bundle.js.LICENSE"
+  },
+  "entrypoints": [
+    "runtime~main.87ed24a39fbc0c03d2d7.bundle.js",
+    "vendors~main.87ed24a39fbc0c03d2d7.bundle.js",
+    "main.87ed24a39fbc0c03d2d7.bundle.js"
+  ]
+}
