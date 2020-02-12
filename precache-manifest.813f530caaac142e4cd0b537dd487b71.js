@@ -1,27 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "942280c8ea59122410e334c8dd03d9fa",
+    "revision": "d2b1d3bda3daea15ef373e8a803d9b97",
     "url": "/index.html"
   },
   {
-    "revision": "805e9fc62e5aa2fbb1b1",
+    "revision": "3074a84a0110274e99ce",
     "url": "/static/css/2.8271af8e.chunk.css"
   },
   {
-    "revision": "805e9fc62e5aa2fbb1b1",
-    "url": "/static/js/2.c59bc8bc.chunk.js"
+    "revision": "3074a84a0110274e99ce",
+    "url": "/static/js/2.634dd908.chunk.js"
   },
   {
-    "revision": "f05f4ee91373d45d02aa",
-    "url": "/static/js/main.c49ace48.chunk.js"
+    "revision": "db67c283c862eb7215b3",
+    "url": "/static/js/main.8004bfae.chunk.js"
   },
   {
-    "revision": "cd8075d6b45ccc9a1ed7",
-    "url": "/static/js/runtime-main.fb1f0d7a.js"
-  },
-  {
-    "revision": "3cedce4f32daa1c99f1cb100c63065ac",
-    "url": "/static/media/AppSidebarBg.3cedce4f.jpg"
+    "revision": "f4b1179a6e22b2d7f7be",
+    "url": "/static/js/runtime-main.a261bd4a.js"
   },
   {
     "revision": "5cb7edfceb233100075dc9a1e12e8da3",
