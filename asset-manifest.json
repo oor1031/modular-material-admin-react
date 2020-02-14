@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/static/js/main.a9f8076f.chunk.js",
-    "main.js.map": "/static/js/main.a9f8076f.chunk.js.map",
+    "main.js": "/static/js/main.b930e0df.chunk.js",
+    "main.js.map": "/static/js/main.b930e0df.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.fb1f0d7a.js",
     "runtime-main.js.map": "/static/js/runtime-main.fb1f0d7a.js.map",
     "static/css/2.8271af8e.chunk.css": "/static/css/2.8271af8e.chunk.css",
     "static/js/2.84031557.chunk.js": "/static/js/2.84031557.chunk.js",
     "static/js/2.84031557.chunk.js.map": "/static/js/2.84031557.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5ed9bb741750896870e7c485dc0a6609.js": "/precache-manifest.5ed9bb741750896870e7c485dc0a6609.js",
+    "precache-manifest.bba41de7bdf4efa2f7439594ac4c8820.js": "/precache-manifest.bba41de7bdf4efa2f7439594ac4c8820.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.8271af8e.chunk.css.map": "/static/css/2.8271af8e.chunk.css.map",
     "static/media/AppSidebarBg.jpg": "/static/media/AppSidebarBg.3cedce4f.jpg",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.fb1f0d7a.js",
     "static/css/2.8271af8e.chunk.css",
     "static/js/2.84031557.chunk.js",
-    "static/js/main.a9f8076f.chunk.js"
+    "static/js/main.b930e0df.chunk.js"
   ]
 }
