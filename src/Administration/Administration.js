@@ -6,7 +6,7 @@ const Administration = ({ match }) => {
   return (
     <div>
       {/* <Route path={`${match.path}/login`} component={Login} /> */}
-      Hello Administration
+      Hello Administration Init
     </div>
   )
 }
