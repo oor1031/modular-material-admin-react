@@ -1,29 +1,18 @@
-import React from 'react';
-import { Avatar, makeStyles, ListItemAvatar, List, ListItemText, ListItem } from '@material-ui/core';
-import administrationUsersList from '../_api/_data/administrationUsersList'
-
-const useStyles = makeStyles((theme) => ({
-  root: {
-    width: '100%',
-    backgroundColor: theme.palette.background.paper,
-  },
-}));
+import React, { useEffect } from 'react'
+// import { Route } from 'react-router-dom'
+import PropTypes from 'prop-types'
+import api from '../_api'
 
 const Administration = ({ match }) => {
-  const classes = useStyles();
+  useEffect(() => {
+    api.users.getList().then(res => console.log('res', res))
+  }, [])
+
   return (
-    <List className={classes.root}>
-      {administrationUsersList && administrationUsersList.list.map(item => {
-        return (
-          <ListItem key={item.id} button>
-            <ListItemAvatar>
-              <Avatar alt={item.avatarUrl} src={item.avatarUrl}/>
-            </ListItemAvatar>
-            <ListItemText primary={`${item.firstName} ${item.lastName}`} />
-          </ListItem>
-        );
-      })}
-    </List>
+    <div>
+      {/* <Route path={`${match.path}/login`} component={Login} /> */}
+      Hello Administration
+    </div>
   )
 }
 
