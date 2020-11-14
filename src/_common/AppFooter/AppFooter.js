@@ -10,40 +10,18 @@ const Footer = () => {
   return (
     <footer className={classes.footer}>
       <Typography variant="body2" color="textSecondary" align="left">
-        {`Modular Material Admin React`}{' '}
         <Link
           color="primary"
           href="https://github.com/modularcode/modular-material-admin-react/releases"
         >
-          v{pkg.version}
+                  {`MLM Material + React`}{' '}
+                  v{pkg.version}
         </Link>
         {' | '}
-        <Link
-          color="primary"
-          href="https://github.com/modularcode/modular-material-admin-react/blob/master/LICENSE"
-        >
-          MIT License
-        </Link>
+
+        {'DEV'}
       </Typography>
-      <Typography variant="body2" color="textSecondary" align="center">
-        <Link color="primary" href="https://github.com/modularcoder">
-          GitHub
-        </Link>
-        {' | '}
-        <Link color="primary" href="https://www.linkedin.com/in/modularcoder/">
-          LinkedIn
-        </Link>
-      </Typography>
-      <Typography variant="body2" color="textSecondary" align="right">
-        {'Built with '}
-        <Link color="primary" href="https://material-ui.com/">
-          Material-UI
-        </Link>
-        {' by '}
-        <Link color="primary" href="https://twitter.com/modularcoder">
-          Gevorg Harutyunyan
-        </Link>
-      </Typography>
+
     </footer>
   )
 }
