@@ -15,16 +15,12 @@ const Dashboard = () => {
   return (
     <BasePageContainer>
       <BasePageToolbar
-        title={'Dashboard'}
-        actionsComponent={DashboardActions}
+        title={'View Title'}
       ></BasePageToolbar>
       <Grid container spacing={3}>
         <Grid item xs={12}>
-          <SubscriptionsHistory />
         </Grid>
-        <KeyNumbers />
-        <SubscriptionsRecent />
-        <SubscriptionsBreakdown />
+
       </Grid>
     </BasePageContainer>
   )

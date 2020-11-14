@@ -28,7 +28,7 @@ const Sidebar = props => {
               noWrap
               className={classes.title}
             >
-              <span className={classes.name}>Modular Admin</span>
+              <span className={classes.name}>MLM Material UI + React</span>
               <span className={classes.tagline}>MaterialUI + ReactJS</span>
             </Typography>
           </Link>
