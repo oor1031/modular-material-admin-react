@@ -5,8 +5,8 @@ import config from './_config'
 
 import DashboardLayout from '_layouts/DashboardLayout'
 import { Auth } from './Auth'
-import { Administration } from './Administration'
-import { Dashboard } from './Dashboard'
+// import { Administration } from './Administration'
+import  ProgramGrid  from './Dashboard/Program/ProgramGrid'
 
 // Use different router type depending on configuration
 const AppRouterComponent =
@@ -17,10 +17,10 @@ const AppRouter = () => (
     <Switch>
       {/* <Route exact path="/" render={() => <Redirect to="/sales/dashboard" />} /> */}
       <Route path="/auth" component={Auth} />
-      <RouteWithLayout exact path={`/`} component={Dashboard} layout={DashboardLayout} />
+      <RouteWithLayout exact path={`/`} component={ProgramGrid} layout={DashboardLayout} />
       <RouteWithLayout
         path={`/administration`}
-        component={Administration}
+        component={ProgramGrid}
         layout={DashboardLayout}
       />
       {/* <Route path="/" component={DashboardLayout} /> */}
